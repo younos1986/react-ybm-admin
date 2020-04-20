@@ -2,6 +2,7 @@
   "name": "ybm-blog-react",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://younos1986.github.io/react-ybm-admin/",
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@progress/kendo-data-query": "^1.5.3",
