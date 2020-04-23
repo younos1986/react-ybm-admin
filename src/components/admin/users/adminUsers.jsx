@@ -48,6 +48,7 @@ class AdminUsers extends Component {
   };
 
   handleDelete = async post => {
+      debugger;
     console.log(post);
     const originalPosts = this.state.posts;
     const posts = this.state.posts.filter(item => item.id !== post.id);

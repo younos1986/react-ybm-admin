@@ -42,6 +42,11 @@ const AdminLayout = ({ routes }) => {
                             Users
                          </Link>
                         </li>
+                        <li>
+                        <Link className="nav-item nav-link" to="/admin/courses">
+                            Counter
+                         </Link>
+                        </li>
                     </ul>
                 </li>
 

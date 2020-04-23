@@ -1,6 +1,7 @@
 import AdminIndex from './admin/adminIndex';
 import AdminLayout from './admin/adminLayout';
 import AdminUsers from './admin/users/adminUsers';
+import CoursesPage from './admin/courses/postsPage';
 import HomeAbout from './home/homeAbout';
 import HomeBlog from './home/homeBlog';
 import HomeContact from './home/homeContact';
@@ -25,6 +26,11 @@ const MyRoutes = [
         {
           path: "/admin/users",
           component: AdminUsers,
+          isDefault: true,
+        },
+        {
+          path: "/admin/courses",
+          component: CoursesPage,
           isDefault: true,
         }
     ]
