@@ -6,7 +6,7 @@ export function loadPostsSuccess(posts) {
 }
 
 export function SavePostSuccess(posts) {
-    return { type: types.SAVE_POST_SUCCESS, posts: posts };
+    return { type: types.SAVE_POST_SUCCESS, posts: posts.data };
   }
 
   export function DeletePostSuccess(id) {
@@ -53,7 +53,7 @@ export function DeletePost(id) {
       .deletePost(id)
       .then(courses => {
           debugger;
-          dispatch(DeletePostSuccess(id));
+          dispatch(DeletePostSuccess({id}));
       })
       .catch(error => {
         throw error;

@@ -52,7 +52,7 @@ class CoursesPage extends React.Component {
   render() {
     return (
       <>
-        <h2>Courses</h2>
+        <h5>Posts using redux</h5>
 
         <div>
         <button title="Add new" style={{float: 'left'}} className="k-button k-primary" onClick={this.handleAdd} >
@@ -104,8 +104,8 @@ CoursesPage.propTypes = {
       debugger;
     return {
         posts:
-        state.posts
-          ? state.posts
+        state.posts.posts
+          ? state.posts.posts
           : []
     };
   }
