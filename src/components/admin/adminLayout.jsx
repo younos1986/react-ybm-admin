@@ -54,8 +54,8 @@ const AdminLayout = ({ routes }) => {
                     <a href="#Submenu2" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Services</a>
                     <ul className="collapse list-unstyled" id="Submenu2">
                         <li>
-                        <Link className="nav-item nav-link" to="/admin/users">
-                        item 1
+                        <Link className="nav-item nav-link" to="/admin/class">
+                          class
                          </Link>
                         </li>
                     </ul>

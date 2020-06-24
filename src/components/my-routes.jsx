@@ -1,6 +1,7 @@
 import AdminIndex from './admin/adminIndex';
 import AdminLayout from './admin/adminLayout';
 import AdminUsers from './admin/users/adminUsers';
+import ClassPage from './admin/services/class';
 import CoursesPage from './admin/courses/postsPage';
 import HomeAbout from './home/homeAbout';
 import HomeBlog from './home/homeBlog';
@@ -31,6 +32,11 @@ const MyRoutes = [
         {
           path: "/admin/courses",
           component: CoursesPage,
+          isDefault: true,
+        },
+        {
+          path: "/admin/class",
+          component: ClassPage,
           isDefault: true,
         }
     ]
